@@ -3,6 +3,7 @@ import { config } from 'dotenv';
 import fileUpload from 'express-fileupload';
 import bodyParser from 'body-parser';
 import db from './db.js';
+import cors from 'cors';
 
 
 //Initilization of App
@@ -11,25 +12,11 @@ config();
 
 
 //Using Middleware
+app.use(cors());
 app.use(fileUpload());
 app.use(bodyParser.json({limit:"5mb"}));
 app.use(bodyParser.urlencoded({extended:true,limit:"5mb"}));
 
-
-//Connecting to the MYSQL Database
-// const db = mysql.createConnection({
-//     host: "localhost",
-//     user: "root",
-//     password: "root",
-//     database: "school",
-//   });
-
-//   db.connect((err) => {
-//     if (err) {
-//       throw err;
-//     }
-//     console.log("MySql Connected");
-//   });
 
 //importing route
 import school from './routes/schoolRoutes.js';

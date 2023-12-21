@@ -1,0 +1,338 @@
+.container {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .schools {
+  width: 80%;
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.addContainer1 {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addContainer1 .addContainer2 {
+  width: 50%;
+  height: 500px;
+  margin-top: 15px;
+}
+.addContainer1 .addContainer2 .heading {
+  width: 100%;
+  height: 50px;
+  background: palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addContainer1 .addContainer2 .heading h3 {
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  letter-spacing: 3px;
+}
+.addContainer1 .addContainer2 .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.addContainer1 .addContainer2 .form .schoolName {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addContainer1 .addContainer2 .form .schoolName label {
+  font-size: 24px;
+  font-weight: bold;
+  color: palevioletred;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.addContainer1 .addContainer2 .form .schoolName input {
+  width: 300px;
+  height: 35px;
+  margin-left: 5px;
+  padding: 0px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.addContainer1 .addContainer2 .form .schoolAddress {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addContainer1 .addContainer2 .form .schoolAddress label {
+  font-size: 24px;
+  font-weight: bold;
+  color: palevioletred;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.addContainer1 .addContainer2 .form .schoolAddress input {
+  width: 300px;
+  height: 35px;
+  margin-left: 5px;
+  padding: 0px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.addContainer1 .addContainer2 .form .schoolCity {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addContainer1 .addContainer2 .form .schoolCity label {
+  font-size: 24px;
+  font-weight: bold;
+  color: palevioletred;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.addContainer1 .addContainer2 .form .schoolCity input {
+  width: 300px;
+  height: 35px;
+  margin-left: 5px;
+  padding: 0px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.addContainer1 .addContainer2 .form .schoolState {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addContainer1 .addContainer2 .form .schoolState label {
+  font-size: 24px;
+  font-weight: bold;
+  color: palevioletred;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.addContainer1 .addContainer2 .form .schoolState input {
+  width: 300px;
+  height: 35px;
+  margin-left: 5px;
+  padding: 0px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.addContainer1 .addContainer2 .form .schoolContact {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addContainer1 .addContainer2 .form .schoolContact label {
+  font-size: 24px;
+  font-weight: bold;
+  color: palevioletred;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.addContainer1 .addContainer2 .form .schoolContact input {
+  width: 300px;
+  height: 35px;
+  margin-left: 5px;
+  padding: 0px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.addContainer1 .addContainer2 .form .schoolEmail {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addContainer1 .addContainer2 .form .schoolEmail label {
+  font-size: 24px;
+  font-weight: bold;
+  color: palevioletred;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.addContainer1 .addContainer2 .form .schoolEmail input {
+  width: 300px;
+  height: 35px;
+  margin-left: 5px;
+  padding: 0px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.addContainer1 .addContainer2 .form .submitButton {
+  border: none;
+  background: rgb(98, 152, 174);
+  color: wheat;
+  padding: 10px 0px;
+  font-size: 18px;
+}
+.addContainer1 .addContainer2 .form .submitButton:hover {
+  background: skyblue;
+  color: white;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header .link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px 10px;
+  background: rgb(32, 32, 32);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.header .link:hover {
+  background: white;
+  color: black;
+  transition: 1.5s ease;
+}
+
+.schoolCard {
+  width: 300px;
+  min-height: 500px;
+  background: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 0px 2px 2px silver;
+}
+.schoolCard .schoolImage {
+  width: auto;
+  min-height: auto;
+}
+.schoolCard .schoolImage .img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.schoolCard .schoolName {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.schoolCard .schoolName p {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: palevioletred;
+}
+.schoolCard .schoolAddress {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.schoolCard .schoolAddress p {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(112, 197, 216);
+}
+.schoolCard .schoolCityState {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.schoolCard .schoolCityState p {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(112, 197, 216);
+  margin-right: 10px;
+}
+.schoolCard .schoolContact {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.schoolCard .schoolContact p {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(112, 197, 216);
+  margin-right: 10px;
+}
+.schoolCard .schoolContact .rating {
+  color: tomato;
+}
+.schoolCard .schoolEmail {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-wrap: wrap;
+}
+.schoolCard .schoolEmail p {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(204, 219, 2);
+  margin-right: 10px;
+  text-wrap: wrap;
+}
+.schoolCard button {
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  background: rgb(12, 151, 12);
+  color: white;
+  border-radius: 20px;
+}
+.schoolCard button:hover {
+  cursor: pointer;
+  background: green;
+  color: aliceblue;
+  transition: 1s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

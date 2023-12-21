@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    .link{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        padding: 8px 10px;
+        // border: .5px solid white;
+        background: rgb(32, 32, 32);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    .link:hover{
+        background: white;
+        color: black;
+        transition: 1.5s ease;
+    }
+}

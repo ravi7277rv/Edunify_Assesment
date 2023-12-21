@@ -1,0 +1,136 @@
+.schoolCard {
+    width: 300px;
+    min-height: 500px;
+    background: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 2px 2px silver;
+
+
+    .schoolImage {
+        width: auto;
+        min-height: auto;
+
+        .img {
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+    }
+
+    .schoolName {
+        width: 100%;
+        min-height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+            margin-left: 10px;
+            font-size: 22px;
+            font-weight: bold;
+            color: palevioletred;
+        }
+    }
+
+    .schoolAddress {
+        width: 100%;
+        min-height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(112, 197, 216);
+        }
+    }
+
+    .schoolCityState {
+        width: 100%;
+        min-height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(112, 197, 216);
+            margin-right: 10px;
+        }
+
+    }
+
+    .schoolContact {
+        width: 100%;
+        min-height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(112, 197, 216);
+            margin-right: 10px;
+        }
+
+
+        .rating {
+            color: tomato;
+        }
+
+    }
+
+    .schoolEmail {
+        width: 100%;
+        min-height: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-wrap: wrap;
+
+        p {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(204, 219, 2);
+            margin-right: 10px;
+            text-wrap: wrap;
+        }
+    }
+
+    button {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        border: none;
+        padding: 10px 20px;
+        background: rgb(12, 151, 12);
+        color: white;
+        border-radius: 20px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background: green;
+        color: aliceblue;
+        transition: 1s ease;
+    }
+}

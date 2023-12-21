@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .schools{
+        width: 80%;
+        min-height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}
